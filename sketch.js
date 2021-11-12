@@ -17,21 +17,21 @@ var distance=0;
 var gameOver, restart;
 
 function preload(){
-  pathImg = loadImage("images/Road.png");
-  mainRacerImg1 = loadAnimation("images/mainPlayer1.png","images/mainPlayer2.png");
-  mainRacerImg2= loadAnimation("images/mainPlayer3.png");
+  pathImg = loadImage("image/Road.png");
+  mainRacerImg1 = loadAnimation("image/mainPlayer1.png","images/mainPlayer2.png");
+  mainRacerImg2= loadAnimation("image/mainPlayer3.png");
   
-  oppPink1Img = loadAnimation("images/opponent1.png","images/opponent2.png");
-  oppPink2Img = loadAnimation("images/opponent3.png");
+  oppPink1Img = loadAnimation("image/opponent1.png","images/opponent2.png");
+  oppPink2Img = loadAnimation("image/opponent3.png");
   
-  oppYellow1Img = loadAnimation("images/opponent4.png","images/opponent5.png");
-  oppYellow2Img = loadAnimation("images/opponent6.png");
+  oppYellow1Img = loadAnimation("image/opponent4.png","images/opponent5.png");
+  oppYellow2Img = loadAnimation("image/opponent6.png");
   
-  oppRed1Img = loadAnimation("images/opponent7.png","images/opponent8.png");
-  oppRed2Img = loadAnimation("images/opponent9.png");
+  oppRed1Img = loadAnimation("image/opponent7.png","images/opponent8.png");
+  oppRed2Img = loadAnimation("image/opponent9.png");
   
   cycleBell = loadSound("sound/bell.mp3");
-  gameOverImg = loadImage("images/gameOver.png");
+  gameOverImg = loadImage("image/gameOver.png");
 }
 
 function setup(){
